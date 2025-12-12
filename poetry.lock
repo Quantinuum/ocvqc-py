@@ -2964,13 +2964,13 @@ pytket = ">=2.9.3"
 
 [[package]]
 name = "pytket-quantinuum"
-version = "0.56.1"
+version = "0.56.2"
 description = "Extension for pytket, providing access to Quantinuum backends"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "pytket_quantinuum-0.56.1-py3-none-any.whl", hash = "sha256:e636b2404993d14dfea445177dc9e05b067c8be91cb907f163938754ac092100"},
+    {file = "pytket_quantinuum-0.56.2-py3-none-any.whl", hash = "sha256:3561f62a1b09ef1c39901ca8a9126aad5063ca243c5a4f1fa479072d6881b59c"},
 ]
 
 [package.dependencies]
@@ -2979,7 +2979,7 @@ pytket = ">=2.9.3"
 pytket-qir = ">=0.25.0"
 
 [package.extras]
-pecos = ["pytket-pecos (>=0.2.2,<0.3.0)"]
+pecos = ["pytket-pecos (>=0.2.2,<0.3.0)", "quantum-pecos (==0.7.0.dev4)"]
 
 [[package]]
 name = "pywin32"
