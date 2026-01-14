@@ -3717,14 +3717,14 @@ sphinxcontrib-serializinghtml = ">=1.1.9"
 
 [[package]]
 name = "sphinx-autodoc-typehints"
-version = "3.6.0"
+version = "3.6.1"
 description = "Type hints (PEP 484) support for the Sphinx autodoc extension"
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "sphinx_autodoc_typehints-3.6.0-py3-none-any.whl", hash = "sha256:da1fa49ef8184700913ee403180b844f91cdba41b80b3f0af0c506d5286fd690"},
-    {file = "sphinx_autodoc_typehints-3.6.0.tar.gz", hash = "sha256:054a12438af70221f27652ac0631e19826ce9a68eaa69ffd07aef6444e60eb7f"},
+    {file = "sphinx_autodoc_typehints-3.6.1-py3-none-any.whl", hash = "sha256:dd818ba31d4c97f219a8c0fcacef280424f84a3589cedcb73003ad99c7da41ca"},
+    {file = "sphinx_autodoc_typehints-3.6.1.tar.gz", hash = "sha256:fa0b686ae1b85965116c88260e5e4b82faec3687c2e94d6a10f9b36c3743e2fe"},
 ]
 
 [package.dependencies]
