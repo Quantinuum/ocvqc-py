@@ -9,7 +9,7 @@ readme = "README.md"
 python = "<3.14,>=3.11"
 notebook = ">=7.4,<7.6"
 pytket-quantinuum = ">=0.53,<0.57"
-pytket_pecos = ">=0.2,<0.3"
+pytket_pecos = ">=0.2,<0.4"
 pytest = ">=8.4,<9.1"
 pytest-cov = ">=6.2,<7.1"
 ruff = ">=0.12,<0.15"
@@ -22,6 +22,7 @@ sphinx = ">=8.2,<9.1"
 sphinx-autodoc-typehints = ">=3.2,<3.7"
 nbmake = ">=1.5,<1.6"
 pytket = ">=2.9,<2.12"
+matplotlib = "^3.10.8"
 
 [build-system]
 requires = ["poetry-core"]
