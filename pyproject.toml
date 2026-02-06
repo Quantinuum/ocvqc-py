@@ -21,7 +21,7 @@ docstr-coverage = ">=2.3,<2.4"
 sphinx = ">=8.2,<9.1"
 sphinx-autodoc-typehints = ">=3.2,<3.7"
 nbmake = ">=1.5,<1.6"
-pytket = ">=2.9,<2.12"
+pytket = ">=2.9,<2.13"
 matplotlib = "^3.10.8"
 
 [build-system]
