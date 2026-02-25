@@ -2743,16 +2743,18 @@ diagrams = ["jinja2", "railroad-diagrams"]
 
 [[package]]
 name = "pyqir"
-version = "0.10.9"
+version = "0.11.1"
 description = "PyQIR parses, generates and evaluates the Quantum Intermediate Representation."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 groups = ["main"]
 files = [
-    {file = "pyqir-0.10.9-cp38-abi3-macosx_10_12_x86_64.macosx_11_0_arm64.macosx_10_12_universal2.whl", hash = "sha256:fc8a468dbab8c8ca5d6b87a834d390665e2978ffa23f847987603f4a5a57ce87"},
-    {file = "pyqir-0.10.9-cp38-abi3-manylinux_2_31_x86_64.whl", hash = "sha256:2ab9c9fe9804e4794be8a1fa5afb085adef581599ef755864535615e82b89b91"},
-    {file = "pyqir-0.10.9-cp38-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:c0fdf06f7a0d38ca1f4587ef98f5b59591875a26a28ea345e7bf7cccebf144cd"},
-    {file = "pyqir-0.10.9-cp38-abi3-win_amd64.whl", hash = "sha256:4e7d3953d6b993bbd2066219c66748669dc55457b5a42b8f65ec1c708a2b7eb3"},
+    {file = "pyqir-0.11.1-cp39-abi3-macosx_10_12_x86_64.whl", hash = "sha256:7a2ae8bf5f28be1983ecc8a43723eb1923f230344b892d2436d3eb3b67a24532"},
+    {file = "pyqir-0.11.1-cp39-abi3-macosx_11_0_arm64.whl", hash = "sha256:3dde55aecd2722e61b0ed74022cb9116bcaffdcae9dace2eac91cfcadc1a87c3"},
+    {file = "pyqir-0.11.1-cp39-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:d77cc74af94203cbb1b6ace737ffe6149ef86e16f613eb02068e794a66651300"},
+    {file = "pyqir-0.11.1-cp39-abi3-manylinux_2_34_x86_64.manylinux_2_35_x86_64.whl", hash = "sha256:6bfa67455622efbf6ef14c7f8fd0ae1cb79bafd3374df154f5f4bdaa74184ef0"},
+    {file = "pyqir-0.11.1-cp39-abi3-win_amd64.whl", hash = "sha256:446cf346b3f0cfeb4a2c08a5b7b84cb83346b20c84e471f5579f3d7af56c1dda"},
+    {file = "pyqir-0.11.1-cp39-abi3-win_arm64.whl", hash = "sha256:fc915164d4f7a25c06fc1495fd5b9ed415548f1bd9f6b8a64ba13eb318373abb"},
 ]
 
 [package.extras]
@@ -2924,37 +2926,37 @@ phirc = ["projectq (>=0.8.0)", "quantum-pecos (>=0.6.0.dev2)"]
 
 [[package]]
 name = "pytket-qir"
-version = "0.25.0"
-description = "Extension for pytket, providing functions for conversion into to qir"
+version = "0.27.1"
+description = "Extension for pytket, providing functions for conversion into to qir."
 optional = false
-python-versions = ">=3.10"
+python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "pytket_qir-0.25.0-py3-none-any.whl", hash = "sha256:9955cd9fea785681642ba442bedbe91c7b23a9a8eae7619ab9c52ae0763296f2"},
+    {file = "pytket_qir-0.27.1-py3-none-any.whl", hash = "sha256:323c8c2a2aa4d040360a2db275daa0b19e1ff3d9f9db4f0d336b63269ae66fe6"},
 ]
 
 [package.dependencies]
-pyqir = ">=0.10.9,<0.11.0"
-pytket = ">=2.9.3"
+pyqir = ">=0.11.1,<0.12.0"
+pytket = ">=2.11.0"
 
 [[package]]
 name = "pytket-quantinuum"
-version = "0.57.0"
+version = "0.58.0"
 description = "Extension for pytket, providing access to Quantinuum backends"
 optional = false
 python-versions = "<4.0,>=3.10"
 groups = ["main"]
 files = [
-    {file = "pytket_quantinuum-0.57.0-py3-none-any.whl", hash = "sha256:75fd8336ee97796b4bcf15f3f0243e38b2055a02fd7975ea50a18eedb885700d"},
+    {file = "pytket_quantinuum-0.58.0-py3-none-any.whl", hash = "sha256:a9be9ed112a5de545f14eba912202948f1538d8c9ad8a42787df96d677294a7a"},
 ]
 
 [package.dependencies]
 numpy = ">=1.26.4"
-pytket = ">=2.11.0"
-pytket-qir = ">=0.25.0"
+pytket = ">=2.13.0"
+pytket-qir = ">=0.27.1"
 
 [package.extras]
-pecos = ["pytket-pecos (>=0.2.2,<0.3.0)", "pytket-phir (>=0.10.1,<0.11.0)", "quantum-pecos (==0.7.0.dev4)"]
+pecos = ["pytket-pecos (>=0.3.2,<0.4.0)", "pytket-phir (>=0.10.1,<0.11.0)", "quantum-pecos (==0.8.0.dev3)"]
 
 [[package]]
 name = "pywin32"
@@ -4139,4 +4141,4 @@ test = ["websockets"]
 [metadata]
 lock-version = "2.1"
 python-versions = "<3.14,>=3.11"
-content-hash = "6bc912f6887e019c248771f602c55be7be1ef7df9ca070395edba430b0693a70"
+content-hash = "f7932719b9d3c8703a3faea249c71734ba42b43daed7dc3243a0f1b473e52e81"
