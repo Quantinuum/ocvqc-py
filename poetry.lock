@@ -3121,14 +3121,14 @@ zx = ["autoray (>=0.6.12)", "numba (>=0.62.1)", "quimb (>=1.8.2)"]
 
 [[package]]
 name = "pytket-pecos"
-version = "0.3.2"
+version = "0.3.3"
 description = "This package enables emulation of pytket circuits using the PECOS emulator."
 optional = false
 python-versions = "*"
 groups = ["main"]
 files = [
-    {file = "pytket_pecos-0.3.2-py2.py3-none-any.whl", hash = "sha256:9295a1d0d744fc9789a4cd0cd5893be913387f59f79dc63dee7bcef62288a904"},
-    {file = "pytket_pecos-0.3.2.tar.gz", hash = "sha256:c515a6e1b31d23b0ce770a7913db07e7217df6bfa5105ebcc16d6a106acf7aab"},
+    {file = "pytket_pecos-0.3.3-py2.py3-none-any.whl", hash = "sha256:8a8fd03b757c45c36cd4a0699336e81b9d47a9232538fcb2543a6a9995126646"},
+    {file = "pytket_pecos-0.3.3.tar.gz", hash = "sha256:ac423c80cee7d0cad32a4ee8c8c6ad83837fa1bfe1779209b4b6b50cf9e628a5"},
 ]
 
 [package.dependencies]
