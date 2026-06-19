@@ -1,6 +1,7 @@
 version: 2
 updates:
   - package-ecosystem: pip
+    open-pull-requests-limit: 0
     directory: "/"
     schedule:
       interval: "daily"
@@ -8,6 +9,7 @@ updates:
     commit-message:
       prefix: "ci(py-deps)"
   - package-ecosystem: github-actions
+    open-pull-requests-limit: 0
     directory: ".github/workflows"
     schedule:
       interval: "daily"
